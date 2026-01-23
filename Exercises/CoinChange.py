@@ -17,5 +17,3 @@ assert(mincoin([1,2,5,10,20,50], 150) == [50,50,50])
 assert(mincoin([1,2,5,10,20,50], 28) == [20,5,2,1])
 assert(mincoin([1,4,6], 7) == [6,1])
 print(mincoin([1,4,6], 9)) #doesn't work
-
-
