@@ -15,7 +15,9 @@ def rec_equalcosteditdist(str1 : str, str2 : str) -> int:
 
 
 def dp_equalcosteditdist(str1 : str, str2 : str) -> int:
-    cost = 0
+    # create table to store sub problems
+    # dp = [[0 for x in range(len(str2) + 1)]]
+
 
     # for index1, char1 in enumerate(str1):
     #     if index1 < len(str2):
@@ -23,9 +25,9 @@ def dp_equalcosteditdist(str1 : str, str2 : str) -> int:
     #             if index1 == index1+index2 and char1 == char2:
     #                 continue
                 # cost += 1
-            
+    return -1
 
-    return cost
+    # return cost
 
 # replace
 
